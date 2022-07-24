@@ -1,7 +1,7 @@
 namespace: argoapptest
 
 ingress:
-  host: argocd-argoapptest.example.com
+  host: consuls-server.com
 
 argoapptest:
   image: "motoskia/argo-app-1:v2"
