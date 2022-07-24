@@ -73,7 +73,7 @@ metadata:
     nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
   rules:  
-  - host: consuls-server.com
+  - host: argocd-argoapptest.example.com
     http:
       paths:
       - path: /
