@@ -72,8 +72,8 @@ metadata:
   annotations:
     nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
-  rules:
-  - host: argocd-argoapptest.example.com
+  rules:  
+  - host: consuls-server.com
     http:
       paths:
       - path: /
